@@ -1,0 +1,7 @@
+#div1 > h1 {     /*Onde # chama o id. O id deve ser usado a marcação apenas 1 vez */
+    color:green;   
+}
+
+.div2 > h2 {    /*Onde o . chama a class, pode ser usado para repetir a marcação.*/
+    color:orange;
+}
