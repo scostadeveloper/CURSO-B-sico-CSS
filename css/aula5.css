@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{         /*Por padrão devemos definir o valor do html e body*/
+    height:100%;
+}
+
+.teste h2{
+    text-align: center;
+    line-height: 50px;   /*Separar uma linha da outra*/ 
+    margin:30px;
+    letter-spacing: 10px;
+}
+
+.artigo{        /*Editando a div artigo*/
+    width: 100%;  /*Largura, onde 100% é respnsivo idependente do tamanho da janela do navegador*/
+    /*  max-width: 300px;   Largura máxima, a largura não ultrapassará este valor*/
+    height: auto;  /*Altura, onde Auto é responsivo*/
+    background-color: #ff11;
+    text-align: center;
+}
+
+.artigo h1{         /*Editando a propriedade h1 da div artigo*/
+    color: #069;        /*Cor da fonte*/
+    font-size: 28px;    /*Tamanho da fonte*/
+    font-family: "Times New Roman", Times, serif;   /*Primeiro lê a primeira e caso n tenha no navegador irá ler as outras.*/
+    font-style: oblique;     /*normal, italic, oblique*/
+    font-weight: normal;    /*Espessura da fonte; O h1 por padrão é bold*/
+    /*font-variant: small-caps; */  /*As letras minusculas ficam maiores mas n mais que as maiusculas*/
+}
+
+.artigo p{
+    color:#b4b4b4;
+    text-align: left;
+    font-size: 17px;
+    font-family: tahoma;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 25px;  /*Espaçamento de uma linha da outra*/
+    margin-top:12px;
+}
