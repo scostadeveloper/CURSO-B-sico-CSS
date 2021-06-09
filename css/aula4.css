@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.artigo{        /*Editando a div artigo*/
+    background-color: #ff11;
+    padding-left: 10px;  /*Espaçamento interno esquerdo*/
+    padding-right: 10px;    /*Espaçamento interno direita*/
+    width: 1280px; /*Largura*/
+    margin: 40px auto; /*Distanciamento do topo da pagina*/
+    text-align: center;
+}
+
+.artigo h1{         /*Editando a propriedade h1 da div artigo*/
+    color: #069;        /*Cor da fonte*/
+    font-size: 28px;    /*Tamanho da fonte*/
+    font-family: "Times New Roman", Times, serif;   /*Primeiro lê a primeira e caso n tenha no navegador irá ler as outras.*/
+    font-style: oblique;     /*normal, italic, oblique*/
+    font-weight: normal;    /*Espessura da fonte; O h1 por padrão é bold*/
+    /*font-variant: small-caps; */  /*As letras minusculas ficam maiores mas n mais que as maiusculas*/
+}
+
+.artigo p{
+    color:#b4b4b4;
+    text-align: left;
+    font-size: 17px;
+    font-family: tahoma;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 25px;  /*Espaçamento de uma linha da outra*/
+    margin-top:12px;
+}
