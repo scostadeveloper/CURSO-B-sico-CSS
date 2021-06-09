@@ -4,6 +4,7 @@
 }
 .teste h2{
     text-align: center;
+    line-height: 50px;   /*Separar uma linha da outra*/ 
     margin:30px;
     letter-spacing: 10px;
 }
