@@ -1,0 +1,19 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{      /*estilizando a class menu*/
+    width: 900px;           /*largura*/
+    margin: 30px auto;     /*centralizar de cima para baixo*/
+    text-align: center;     /*alinhamento do texto*/
+}
+.menu a{    /*estilizando o elemento dentro da class menu, no caso "a"*/
+    color: black;
+    border-right: 3px solid black;
+    padding-right: 8px;     /*preenchimento direita*/
+    text-decoration: none;  /*tirar dexoração do texto*/
+    font-size: 20px;        /*tamanho da fonte*/
+    margin: 0 10px;         /*margem*/
+}
